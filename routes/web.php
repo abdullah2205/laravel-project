@@ -20,3 +20,5 @@ Route::get('/', function () {
 });
 
 Route::resource('anggota', 'AppController'); // anggota = route nya untuk button
+
+Route::view('/sample', 'sample');
